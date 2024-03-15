@@ -5,7 +5,7 @@ pipeline {
         
         stage("code"){
             steps{
-                git url: "https://github.com/akshu20791/cicd-project2/", branch: "master"
+                git url: "https://github.com/SachinBenne97/cicd-project2/", branch: "master"
                 echo 'code cloned'
             }
         }
